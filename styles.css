@@ -1,0 +1,58 @@
+
+@import url('https://fonts.googleapis.com/css2?family=VT323&display');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'VT323', monospace;
+}
+
+.container h1{
+    text-align: center;
+    margin: 50px;
+    font-size: 400%;
+}
+
+.pokemons{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: space-evenly;
+    margin: 20px;
+}
+
+.pokemons li{
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(250, 250, 226);
+    border: black solid 5px;
+    margin: 20px;
+}
+
+.pokemons li:hover{
+    opacity: 50%;
+}
+
+li h3{
+    text-transform: uppercase;
+    font-size: 250%;
+    margin: 10px;
+    text-align: center;
+}
+
+li img{
+    width: 90%;
+    margin: 20px;
+}
+
+footer{
+    background-color:rgb(250, 250, 226) ;
+    border: black solid 5px;
+}
+
+footer p{
+    text-align: center;
+    font-size: 50px;
+}
