@@ -32,6 +32,7 @@ function cambiarImagen(nombre, shiny){
 function cambiarNormal(nombre, imagen){
     let imagenPoke = document.getElementById(nombre);
     imagenPoke.src = imagen;
+    console.log(imagenPoke)
 }
 
 
